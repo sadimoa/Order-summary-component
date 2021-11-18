@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 70%;
+  font-weight: 400;
+}
+
+body {
+  background-image: url(/images/pattern-background-desktop.svg);
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  width: 33.33%;
+  height: 570px;
+  position: absolute;
+  top: 6%;
+  left: 35%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.imge-container {
+  width: 100%;
+  z-index: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.text-container {
+  opacity: 0.8;
+}
+
+.text-container h1 {
+  font-size: 2em;
+  padding: 0.5em;
+}
+
+.music-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: rgb(54, 54, 54);
+}
+
+.music-box img {
+  width: 70px;
+  padding-right: 20px;
+}
+
+.music-box span{
+  color: rgb(138, 135, 135);
+}
+
+.text-container p {
+  padding-bottom: 2em;
+}
+
+
+.link-box{
+  background-color: rgb(251, 249, 249);
+  margin-top: 0;
+  padding: 10px 0;
+  border-radius: 9px;
+
+  margin-bottom: 1.2em;
+  
+  
+  
+}
+
+.right{
+margin-left: 3em;
+font-weight: 400;
+padding: 0.4em;
+border-radius: 8px;
+
+}
+
+button{
+  font-family:  "Poppins";
+  font-size: 1.3em;
+  color: #fff;
+  border-radius: 10px;
+  width: 80%;
+  padding: 0.8em;
+  border: none;
+  margin-bottom: 1em;
+  background-color: hsl(245, 75%, 52%);
+}
+
+.cancel{
+  color: rgb(100, 95, 95);
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+
+@media (max-width: 600px){
+
+  html {
+    font-size: 70%;
+    font-weight: 400;
+  }
+
+  .main-container{
+    width: 80%;
+    position: absolute;
+    top: 2%;
+    left: 9%;
+  }
+}
+
+@media (max-width: 1000px){
+
+  html {
+    font-size: 70%;
+    font-weight: 400;
+  }
+
+  .main-container{
+    width: 70%;
+    height: 95vh;
+    position: absolute;
+    top: 2%;
+    left: 16%;
+  }
+}
+
+
+@media (max-width: 450px){
+
+  html {
+    font-size: 80%;
+    font-weight: 400;
+  }
+
+  .main-container{
+    width: 95.99%;
+    height: 650px;
+    position: absolute;
+    top: 6%;
+    left: 2%;
+  }
+}
