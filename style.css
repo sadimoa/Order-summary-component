@@ -15,15 +15,16 @@ body {
 }
 
 .main-container {
-  width: 33.33%;
+  width: 29%;
   height: 570px;
   position: absolute;
-  top: 6%;
+  top: 4%;
   left: 35%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #fff;
   text-align: center;
   border-radius: 20px;
+  
 }
 
 .imge-container {
