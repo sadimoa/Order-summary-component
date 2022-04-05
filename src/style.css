@@ -10,8 +10,10 @@ html {
 }
 
 body {
-  background-image: url(/images/pattern-background-desktop.svg);
+  background-image: url(/src/images/pattern-background-desktop.svg);
   font-family: "Poppins", sans-serif;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 .main-container {
@@ -107,6 +109,13 @@ button{
 
 @media (max-width: 600px){
 
+  body{
+    background-image: url(/src/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
   html {
     font-size: 70%;
     font-weight: 400;
@@ -120,16 +129,11 @@ button{
   }
 }
 
-@media (max-width: 1000px){
-
-  html {
-    font-size: 70%;
-    font-weight: 400;
-  }
+@media (max-width: 776px){
 
   .main-container{
     width: 70%;
-    height: 95vh;
+    height: 92vh;
     position: absolute;
     top: 2%;
     left: 16%;
