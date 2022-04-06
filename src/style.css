@@ -106,7 +106,8 @@ button{
   color: rgb(100, 95, 95);
   font-size: 1.3em;
   text-decoration: none;
-  padding-top: 2em;
+  padding-top: .7em;
+display: inline-block;
 }
 
 
